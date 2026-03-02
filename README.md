@@ -21,12 +21,13 @@ This project automates the registration and checkout process on the Freemans web
    npm install
    ```
 
-🚦 How to Run
--Initialize the Database:
-This will create the SQLite file and populate it with the necessary selectors and data.
+## 🚦 How to Run
 
-Bash
-npx ts-node setup_db.ts
+1. **Initialize the Database:**
+   This will create the SQLite file and populate it with the necessary selectors and data.
+   ```bash
+   npx ts-node setup_db.ts
+   ```
 
 -Run the Automation:
 The script will open the browser. Follow the console instructions to add a product to the cart, and the script will take over from the registration page.
