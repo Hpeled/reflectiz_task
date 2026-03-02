@@ -37,8 +37,6 @@ This project automates the registration and checkout process on the Freemans web
    npx tsx index.ts
    ```
 
-```
-
 📊 SQL Queries
 The file queries.sql contains the requested SQL demonstrations:
 
@@ -58,4 +56,3 @@ setup_db.ts: Database initialization script.
 queries.sql: SQL demonstration queries.
 
 form_selectors.sqlite: The generated database file.
-```
