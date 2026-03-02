@@ -33,8 +33,10 @@ This project automates the registration and checkout process on the Freemans web
 2. **Run the Automation:**
    The script will open the browser. Follow the console instructions to add a product to the cart, and the script will take over from the registration page.
 
-```Bash
-npx tsx index.ts
+   ```bash
+   npx tsx index.ts
+   ```
+
 ```
 
 📊 SQL Queries
@@ -56,3 +58,4 @@ setup_db.ts: Database initialization script.
 queries.sql: SQL demonstration queries.
 
 form_selectors.sqlite: The generated database file.
+```
